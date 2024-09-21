@@ -14,8 +14,31 @@ h1 {
     margin-top: 50px;
 }
 
+
 footer {
     text-align: center;
     color: #4CAF50;
     font-size: small;
 }
+
+/* Navbar styles */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #575757;
+    display: flex;
+    justify-content: center; /* Centers the navbar items */
+}
+
+.navbar li a {
+    color: white;
+    padding: 14px 20px;
+    display: block;
+}
+
+.navbar li a:hover {
+    background-color: #4CAF50;
+}
+
+
